@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.index-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.nav__title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.nav__text {
+    color: #6B6B6B;
+}
+
+.section-menu {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.section-menu__card {
+    border: 3px solid #000000;
+    display: inline-block;
+    width: 230px;
+}
+
+.section-menu__card img {
+    width: 100%;
+}
+
+.section-menu__card-content {
+    padding: 10px;
+}
+
+.section-menu__card-content h2 {
+    font-size: 16px;
+}
+
+.section-menu__card-content p {
+    font-size: 16px;
+}
+
+.section-menu__card-content button {
+    background-color: #000000;
+    color: white;
+    padding: 5px 7px 5px 7px;
+}
+
+.section-footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-footer__form {
+    margin-top: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left; */
+}
+
+.section-footer__form-table {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.section-footer__form-button {
+    background-color: yellow;
+    padding: 10px 5px 10px 5px;
+    width: 20%;
+}
+
+.section-footer__form-input {
+    padding: 3px;
+}
+
+.body-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+}

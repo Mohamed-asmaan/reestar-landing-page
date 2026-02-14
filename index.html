@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Makes website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title shown in browser tab -->
+    <title>Udemy Clone</title>
+
+    <!-- Short description for search engines -->
+    <meta name="description" content="Udemy clone project built using HTML and CSS.">
+
+    <!-- Author -->
+    <meta name="author" content="Mohamed Asmaan">
+
+    <!-- Link to main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- Wrapper div used to contain entire page layout -->
+    <div class="body-holder">
+
+        <!-- Header contains website title and simple navigation text -->
+        <header class="index-header">
+            <h1 class="nav__title">Reestar</h1>
+
+            <!-- Simple navigation text (could later be converted into links) -->
+            <p class="nav__text">Home | Receipe | Contact</p>
+        </header>
+
+        <!-- Main content of the page -->
+        <main>
+
+            <!-- Menu section displaying food items -->
+            <!-- Section is used because this is a grouped thematic content block -->
+            <section class="section-menu">
+
+                <!-- Each card represents one food item -->
+                <!-- Div used because this is a layout container -->
+                <div class="section-menu__card">
+
+                    <!-- Food image -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShsQ8He-ismGSUsnF4OyWiaujnRSyrGE9E_w&s"
+                        alt="Chicken dish">
+
+                    <!-- Content area of the card -->
+                    <div class="section-menu__card-content">
+                        <h2>Herb Roasted Chicken Plate</h2>
+                        <p>Lightly seasoned with fresh herbs</p>
+
+                        <!-- Button used because it represents an action -->
+                        <button>Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Additional food cards follow same structure for consistency -->
+
+                <div class="section-menu__card">
+                    <img src="https://i.pinimg.com/736x/fe/4e/14/fe4e14cb4588badaf21bad57823aa78d.jpg"
+                        alt="Prawns dish">
+                    <div class="section-menu__card-content">
+                        <h2>Grilled Spiced Prawns</h2>
+                        <p>Charred prawns with smoky flavor</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+
+                <div class="section-menu__card">
+                    <img src="https://img.freepik.com/free-photo/seafood-cleaning-process-kitchen_23-2150171475.jpg?semt=ais_hybrid&w=740&q=80"
+                        alt="Fish dish">
+                    <div class="section-menu__card-content">
+                        <h2>Fresh Market Fish Curry</h2>
+                        <p>Prepared daily with local catch <br><br></p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+
+                <div class="section-menu__card">
+                    <img src="https://experiencesofagastronomad.com/wp-content/uploads/2016/08/Mete-Chorchori3-1.jpg"
+                        alt="Mutton dish">
+                    <div class="section-menu__card-content">
+                        <h2>Traditional Mutton Chorchori</h2>
+                        <p>Slow cooked with rustic spices <br><br></p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Footer contains contact form -->
+        <footer>
+
+            <!-- Contact section grouped inside footer -->
+            <section class="section-footer">
+                <h2>Contact Us</h2>
+
+                <!-- Form used to collect user input -->
+                <form action="https://mohamed-asmaan.github.io/" class="section-footer__form">
+
+                    <!-- Table used here to align form labels and inputs neatly -->
+                    <table class="section-footer__form-table">
+                        <tr>
+                            <td>Name:</td>
+                            <td>
+                                <input type="text" name="Name"
+                                    placeholder="Name"
+                                    class="section-footer__form-input">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Age:</td>
+                            <td>
+                                <input type="number" name="Age"
+                                    placeholder="Age"
+                                    class="section-footer__form-input">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td>
+                                <input type="email" name="email"
+                                    placeholder="Email"
+                                    class="section-footer__form-input">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <!-- Submit button -->
+                    <button class="section-footer__form-button">Send</button>
+                </form>
+            </section>
+        </footer>
+
+    </div>
+</body>
+
+
+</html>
